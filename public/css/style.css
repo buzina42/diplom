@@ -114,7 +114,7 @@ ol {
 -----------------------*/
 
 .section-title h2 {
-	color: #ffffff;
+	color: #7e3713;
 	font-size: 48px;
 	font-weight: 600;
 	margin-bottom: 18px;
@@ -152,7 +152,7 @@ ol {
 .text-white span,
 .text-white li,
 .text-white a {
-	color: #fff;
+	color: #f7fb37;
 }
 
 /* buttons */
@@ -163,7 +163,7 @@ ol {
 	font-family: "Oswald", sans-serif;
 	font-weight: 600;
 	padding: 0 12px;
-	color: #ffffff;
+	color: #e02e1f;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	text-align: center;
@@ -189,7 +189,7 @@ ol {
 }
 
 .primary-btn:after {
-	color: #fff;
+	color: #631f19;
 	-webkit-transition-duration: 500ms;
 	-o-transition-duration: 500ms;
 	transition-duration: 500ms;
@@ -243,7 +243,7 @@ ol {
 }
 
 .site-btn:after {
-	color: #fff;
+	color: #631f19;
 	-webkit-transition-duration: 500ms;
 	-o-transition-duration: 500ms;
 	transition-duration: 500ms;
@@ -414,7 +414,7 @@ ol {
 }
 
 .nav-menu .mainmenu ul li a {
-	color: #ffffff;
+	color: #7e3713;
 	font-size: 16px;
 	text-transform: uppercase;
 	font-weight: 500;
@@ -498,7 +498,7 @@ ol {
 .top-social a {
 	display: inline-block;
 	font-size: 20px;
-	color: #ffffff;
+	color: #2e2d8e;
 	margin-left: 20px;
 }
 
@@ -622,7 +622,7 @@ ol {
 }
 
 .single-hero-item .hero-text h1 {
-	color: #ffffff;
+	color: #33c733;
 	font-size: 90px;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -674,14 +674,14 @@ ol {
 }
 
 .feature-item h3 {
-	color: #ffffff;
+	color: #7e3713;
 	font-weight: 500;
 	text-transform: uppercase;
 	margin-bottom: 14px;
 }
 
 .feature-item p {
-	color: #ffffff;
+	color: #ffc29d;
 	margin-bottom: 22px;
 }
 
@@ -704,7 +704,7 @@ ol {
 .about-text h2 {
 	font-size: 48px;
 	font-weight: 500;
-	color: #ffffff;
+	color: #7e3713;
 	text-transform: uppercase;
 	margin-bottom: 36px;
 }
@@ -784,7 +784,7 @@ ol {
 
 .classes-item h4 {
 	font-weight: 600;
-	color: #ffffff;
+	color: #7e3713;
 	text-transform: uppercase;
 	margin-bottom: 20px;
 }
@@ -965,7 +965,7 @@ ol {
 }
 
 .price-section .section-title p {
-	color: #ffffff;
+	color: #7e3713;
 }
 
 .price-section .toggle-option {

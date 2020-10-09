@@ -26,8 +26,8 @@
             $(this).addClass('active');
         });
         if($('.gallery-filter').length > 0 ) {
-            var containerEl = document.querySelector('.gallery-filter');
-            var mixer = mixitup(containerEl);
+            let containerEl = document.querySelector('.gallery-filter');
+            let mixer = mixitup(containerEl);
         }
 
         $('.blog-gird').masonry({
@@ -41,8 +41,8 @@
         Background Set
     --------------------*/
     $('.set-bg').each(function () {
-        var bg = $(this).data('setbg');
-        $(this).css('background-image', 'url(' + bg + ')');
+        let bg = $(this).data('setbg');
+        $(this).css('backgroundImage', 'url(' + bg + ')');
     });
 
     /*------------------
@@ -124,7 +124,7 @@
         } else {
             $('.classtime-table').addClass('filtering');
         }
-        $('.ts-item').each(function(){
+        $('.ts_item').each(function(){
             $(this).removeClass('show');
             if($(this).data('tsmeta') == tsfilter) {
                 $(this).addClass('show');
@@ -133,3 +133,4 @@
     });
 
 })(jQuery);
+
