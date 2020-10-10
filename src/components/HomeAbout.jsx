@@ -1,4 +1,5 @@
 import React from "react";
+import {NavLink} from "react-bootstrap";
 
 const HomeAbout = ()=>{
     return <div>
@@ -7,17 +8,10 @@ const HomeAbout = ()=>{
                 <div className="row">
                     <div className="col-lg-6">
                         <div className="about-text">
-                            <h2>WELCOME TO CROSSFIT</h2>
-                            <p className="short-details">CrossFit is a cutting-edge functional fitness system that can
-                                help
-                                everyday men.</p>
-                            <p className="long-details">Success isn’t really that difficult. There is a significant
-                                portion of
-                                the population here in North America, that actually want and need success to be hard!
-                                For
-                                those of you who are serious about having more, doing more, giving more and being
-                                more.</p>
-                            <a href="#" className="primary-btn about-btn">Learn More</a>
+                            <h2>БЕГИ СО МНОЙ</h2>
+                            <p className="short-details">Бег - это естественное физиологическое движение, которое приносит пользу с давних времен.</p>
+                            <p className="long-details">Как известно, бег, с начала времен стоит на страже вашего здоровья от чужих насильственных действий, ведь как известно, умеющий бегать ничего не боится.</p>
+                            <NavLink to="#" className="primary-btn about-btn">Подробнее</NavLink>
                         </div>
                     </div>
                     <div className="col-lg-6">

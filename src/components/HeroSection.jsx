@@ -11,7 +11,7 @@ const HeroSection = ()=>{
                                 <div className="hero-text">
                                     <h2>Join Us Now</h2>
                                     <h1>FITNESS & SPORT</h1>
-                                    <a href="#" className="primary-btn">Read More</a>
+                                    <a href="#" className="primary-btn">Подробнее</a>
                                 </div>
                             </div>
                         </div>

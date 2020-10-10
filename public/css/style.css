@@ -405,7 +405,7 @@ ol {
 	margin-right: 0;
 }
 
-.nav-menu .mainmenu ul li.active a {
+.nav-menu .mainmenu ul li.active {
 	color: #e4381C;
 }
 
@@ -875,7 +875,7 @@ ol {
 .classtime-table table {
 	width: 100%;
 	border: 1px solid #1f1f1f;
-	background: #212121;
+	background: #5c5a5a;
 	text-align: center;
 }
 

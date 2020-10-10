@@ -1,48 +1,41 @@
 import React from "react";
+import {NavLink} from "react-bootstrap";
 
 const Menu = ()=>{
     return <div>
-        <div id="preloder">
-            <div className="loader"/>
-        </div>
-        <div>
-            <header className="header-section">
-                <div className="container-fluid">
-                    <div className="logo">
-                        <a href="/public/index.html">
-                            <img src={require('./img/logo.png')} alt="логотип не загрузился"/>
-                        </a>
-                    </div>
-                    <div className="top-social">
-                        <a href="#"><i className="fa fa-pinterest-p"/></a>
-                        <a href="#"><i className="fa fa-linkedin"/></a>
-                        <a href="#"><i className="fa fa-pinterest-p"/></a>
-                        <a href="#"><i className="fa fa-youtube-play"/></a>
-                        <a href="#"><i className="fa fa-instagram"/></a>
-                    </div>
-                    <div className="container">
-                        <div className="nav-menu">
-                            <nav className="mainmenu mobile-menu">
-                                <ul>
-                                    <li className="active"><a href="/public/index.html">Home</a></li>
-                                    <li><a href="/public/about-us.html">About us</a></li>
-                                    <li><a href="/public/schedule.html">Schedule</a></li>
-                                    <li><a href="/public/gallery.html">Gallery</a></li>
-                                    <li><a href="/public/blog.html">Blog</a>
-                                        <ul className="dropdown">
-                                            <a href="/public/about-us.html">About Us</a>
-                                            <a href="/public/blog-single.html">Blog Details</a>
-                                        </ul>
-                                    </li>
-                                    <li><a href="/public/contact.html">Contacts</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                    <div id="mobile-menu-wrap"/>
+        <header className="header-section">
+            <div className="container-fluid">
+                <div className="logo">
+                    <NavLink to="index"/>
                 </div>
-            </header>
-        </div>
+                <div className="top-social">
+                    <NavLink to="#"><i className="fa fa-pinterest-p"/></NavLink>
+                    <NavLink to="#"><i className="fa fa-linkedin"/></NavLink>
+                    <NavLink to="#"><i className="fa fa-youtube-play"/></NavLink>
+                    <NavLink to="#"><i className="fa fa-instagram"/></NavLink>
+                </div>
+                <div className="container col-sm-12">
+                    <div className="nav-menu">
+                        <nav className="mainmenu mobile-menu">
+                            <ul>
+                                <li><NavLink exact to="">Главная</NavLink></li>
+                                <li><NavLink exact to="/public/about_me">Обо мне</NavLink></li>
+                                <li><NavLink exact to="/public/schedule">Расписание</NavLink></li>
+                                <li><NavLink exact to="/public/gallery">Галерея</NavLink></li>
+                                <li><NavLink exact to="/public/blog">Блог</NavLink>
+                                    <ul className="dropdown">
+                                        <NavLink to="/public/about_me">Обо мне</NavLink>
+                                        <NavLink to="/public/blog_more">Блог Подробнее</NavLink>
+                                    </ul>
+                                </li>
+                                <li><NavLink to="/public/contact">Контакты</NavLink></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div id="mobile-menu-wrap"/>
+            </div>
+        </header>
     </div>
 }
 export default Menu;
