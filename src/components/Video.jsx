@@ -7,7 +7,7 @@ const Video = ()=>{
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="video-text">
-                            <h2>Gym In Dowtown New York</h2>
+                            <h2>Участие в беговых мероприятиях</h2>
                             <a href="https://www.youtube.com/watch?v=X_9VoqR5ojM" className="play-btn video-popup">
                                 <i className="fa fa-play"/>
                             </a>

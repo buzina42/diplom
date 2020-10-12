@@ -27,24 +27,21 @@ import BlogMore from "./components/BlogMore";
 
 
 
-function App() {
+function App(props) {
   return (
-      <div className="site">
+      <div>
         <BrowserRouter>
           <Preloder/>
           <Menu/>
-          <Route exact path="/" render={()=> {
+          <Route exact path="" render={()=> {
             return <div>
-              <HeroSection/>
-              <FeatureSection/>
               <HomeAbout/>
               <Classes/>
               <ClassesItem/>
               <Classtime/>
-              <Price/>
+              <Price getArticles={props.getArticles} getArticle={props.getArticle}/>
               <ChooseUs/>
               <Video/>
-              <Blog/>
               <GetStarted/>
               <Map/>
             </div>

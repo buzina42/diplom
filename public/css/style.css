@@ -79,7 +79,7 @@ h6 {
 p {
 	font-size: 16px;
 	font-family: "Nunito Sans", sans-serif;
-	color: #8f8fa8;
+	color: #ffffff;
 	font-weight: 400;
 	line-height: 24px;
 	margin: 0 0 15px 0;
@@ -159,7 +159,7 @@ ol {
 
 .primary-btn {
 	display: inline-block;
-	font-size: 14px;
+	font-size: 16px;
 	font-family: "Oswald", sans-serif;
 	font-weight: 600;
 	padding: 0 12px;
@@ -169,13 +169,14 @@ ol {
 	text-align: center;
 	width: 160px;
 	height: 46px;
-	border-left: 2px solid #e16521;
-	border-right: 2px solid #e4381C;
+	border-left: 4px solid #e16521;
+	border-right: 4px solid #e4381C;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
+	background: rgba(0 ,0 ,0 , 0.5);
 	background-position: 0 0, 0 100%;
 	background-repeat: no-repeat;
-	background-size: 100% 2px;
+	background-size: 100% 4px;
 	background-image: -webkit-gradient(linear, left top, right top, color-stop(100%, #e4381C), to(#e16521)), -webkit-gradient(linear, left top, right top, from(#e4381C), color-stop(0%, #e16521));
 	background-image: -o-linear-gradient(left, #e4381C 100%, #e16521 100%), -o-linear-gradient(left, #e4381C 0%, #e16521 0%);
 	background-image: linear-gradient(to right, #e4381C 100%, #e16521 100%), linear-gradient(to right, #e4381C 0%, #e16521 0%);
@@ -184,6 +185,7 @@ ol {
 	transition-duration: 1000ms;
 	line-height: 45px;
 	position: relative;
+	margin: auto;
 	z-index: 1;
 	border-radius: 4px;
 }
@@ -723,7 +725,7 @@ ol {
 }
 
 .about-text .primary-btn.about-btn:after {
-	opacity: 1;
+	opacity: 0.3;
 }
 
 .about-img img {
@@ -1008,7 +1010,7 @@ ol {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: rgba(255, 255, 255, 0.3);
+	background: rgba(255, 255, 255, 1);
 	border-radius: 2px;
 	-webkit-transition: 0.4s;
 	-o-transition: 0.4s;
@@ -1036,7 +1038,7 @@ ol {
 }
 
 .single-price-plan {
-	background: #ffffff;
+	background: rgba(255, 255, 255, 0.5);
 	text-align: center;
 	padding: 45px 0 50px;
 	position: relative;
@@ -1052,7 +1054,7 @@ ol {
 }
 
 .single-price-plan .price-plan {
-	margin-bottom: 35px;
+	margin-bottom: auto;
 }
 
 .single-price-plan .price-plan h2 {

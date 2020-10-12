@@ -1,12 +1,13 @@
 import React from "react";
 import {NavLink} from "react-bootstrap";
+import {Route} from "react-router-dom";
 
 const Menu = ()=>{
     return <div>
         <header className="header-section">
             <div className="container-fluid">
                 <div className="logo">
-                    <NavLink to="index"/>
+                    <NavLink to=""/>
                 </div>
                 <div className="top-social">
                     <NavLink to="#"><i className="fa fa-pinterest-p"/></NavLink>
@@ -18,17 +19,17 @@ const Menu = ()=>{
                     <div className="nav-menu">
                         <nav className="mainmenu mobile-menu">
                             <ul>
-                                <li><NavLink exact to="">Главная</NavLink></li>
-                                <li><NavLink exact to="/public/about_me">Обо мне</NavLink></li>
-                                <li><NavLink exact to="/public/schedule">Расписание</NavLink></li>
-                                <li><NavLink exact to="/public/gallery">Галерея</NavLink></li>
-                                <li><NavLink exact to="/public/blog">Блог</NavLink>
+                                <li><NavLink to="">Главная</NavLink></li>
+                                <li><NavLink exact to="/about_me">Обо мне</NavLink></li>
+                                <li><NavLink to="/schedule">Расписание</NavLink></li>
+                                <li><NavLink to="/gallery">Галерея</NavLink></li>
+                                <li><NavLink to="/blog">Блог</NavLink>
                                     <ul className="dropdown">
-                                        <NavLink to="/public/about_me">Обо мне</NavLink>
-                                        <NavLink to="/public/blog_more">Блог Подробнее</NavLink>
+                                        <NavLink to="/about_me">Обо мне</NavLink>
+                                        <NavLink to="/blog_more">Блог Подробнее</NavLink>
                                     </ul>
                                 </li>
-                                <li><NavLink to="/public/contact">Контакты</NavLink></li>
+                                <li><NavLink to="/contact">Контакты</NavLink></li>
                             </ul>
                         </nav>
                     </div>

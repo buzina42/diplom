@@ -7,8 +7,8 @@ const ChooseUs = ()=>{
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="section-title">
-                            <h2>Why People Choose Us</h2>
-                            <p>Our sport experts and latest sports equipment are the winning combination.</p>
+                            <h2>Почему стоит выбрать меня в качестве тренера</h2>
+                            <p>Тут какой-то самовосхваляющий текст.</p>
                         </div>
                     </div>
                 </div>
@@ -16,53 +16,43 @@ const ChooseUs = ()=>{
                     <div className="col-lg-4 col-sm-6">
                         <div className="choose-item">
                             <img src={require('./img/icons/chose-icon-1.png')} alt=""/>
-                            <h5>Support 24/24</h5>
-                            <p>One of the best ways to make a great vacation quickly horrible is to choose the wrong
-                                accommodations for your trip. </p>
+                            <h5>Обратная связь</h5>
+                            <p>Один из лучших способов быстро испортить свои тренировки - не давать тренеру обратную связь.  </p>
                         </div>
                     </div>
                     <div className="col-lg-4 col-sm-6">
                         <div className="choose-item">
                             <img src={require('./img/icons/chose-icon-2.png')} alt=""/>
-                            <h5>Our trainer</h5>
-                            <p>If you are an infrequent traveler you may need some tips to keep the wife happy while you
-                                are
-                                jet setting around the globe.</p>
+                            <h5>Другие тренеры</h5>
+                            <p>Если вы оказались в другом городе, спросите меня, у какого тренера по бегу лучше посещать тренировки.</p>
                         </div>
                     </div>
                     <div className="col-lg-4 col-sm-6">
                         <div className="choose-item">
                             <img src={require('./img/icons/chose-icon-3.png')} alt=""/>
-                            <h5>Personalized sessions</h5>
-                            <p>To succeed at any endeavor, you must stay the course…no matter what the cost! Here are
-                                some
-                                surefire tips to help you on your journey.</p>
+                            <h5>Персональный подход</h5>
+                            <p>Чтобы добиться успеха в любом начинании, вы должны двигаться верным курсом! Вот некоторые советы, которые помогут вам в вашем самосовершенствовании.</p>
                         </div>
                     </div>
                     <div className="col-lg-4 col-sm-6">
                         <div className="choose-item">
                             <img src={require('./img/icons/chose-icon-4.png')} alt=""/>
-                            <h5>Our equipment</h5>
-                            <p>Rugby and Stratford-upon-Avon. Additionally, there are many things to see and do in and
-                                around Coventry itself.</p>
+                            <h5>Экипировка</h5>
+                            <p>Что? Где? Зачем? Почему?</p>
                         </div>
                     </div>
                     <div className="col-lg-4 col-sm-6">
                         <div className="choose-item">
                             <img src={require('./img/icons/chose-icon-5.png')} alt=""/>
-                            <h5>Classes daily</h5>
-                            <p>We would just not have the will in us to go about our daily lives. Its motivation that
-                                helps
-                                us get through the most mundane.</p>
+                            <h5>Ежедневные занятия</h5>
+                            <p>Равномерная нагрузка для каждого дня, без надрыва.</p>
                         </div>
                     </div>
                     <div className="col-lg-4 col-sm-6">
                         <div className="choose-item">
                             <img src={require('./img/icons/chose-icon-6.png')} alt=""/>
-                            <h5>Focus on your health</h5>
-                            <p>But there is only so far we can go within the constraints of a family budget in building
-                                the
-                                perfect telescopic operation.</p>
+                            <h5>Внимание к здоровью</h5>
+                            <p>Тренировки, это не единственное, чему стоит уделить внимание.</p>
                         </div>
                     </div>
                 </div>
