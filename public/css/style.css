@@ -114,7 +114,7 @@ ol {
 -----------------------*/
 
 .section-title h2 {
-	color: #7e3713;
+	color: #fff;
 	font-size: 48px;
 	font-weight: 600;
 	margin-bottom: 18px;
@@ -967,7 +967,7 @@ ol {
 }
 
 .price-section .section-title p {
-	color: #7e3713;
+	color: #ffffff;
 }
 
 .price-section .toggle-option {

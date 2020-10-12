@@ -19,8 +19,8 @@ const Menu = ()=>{
                     <div className="nav-menu">
                         <nav className="mainmenu mobile-menu">
                             <ul>
-                                <li><NavLink to="">Главная</NavLink></li>
-                                <li><NavLink exact to="/about_me">Обо мне</NavLink></li>
+                                <li><NavLink exact to="/">Главная</NavLink></li>
+                                <li><NavLink to="/about_me">Обо мне</NavLink></li>
                                 <li><NavLink to="/schedule">Расписание</NavLink></li>
                                 <li><NavLink to="/gallery">Галерея</NavLink></li>
                                 <li><NavLink to="/blog">Блог</NavLink>

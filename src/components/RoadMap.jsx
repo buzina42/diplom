@@ -5,17 +5,16 @@ const RoadMap = ()=> {
     return <div>
         <div className="contact-map">
             <Iframe
-                url="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d188618.51311104256!2d-71.236572!3d42.381647!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1576756626784!5m2!1sen!2sbd"
-                height="530"
+                src="https://yandex.ru/map-widget/v1/?um=constructor%3Abbf15d5074614777ccf4241110c25a397262511da0db17546edbfd3aaa432c7e&amp;source=constructor"
                 width="100%"
-                styles={{border: "0"}}
-                allowFullScreen=""/>
+                height="600"
+                frameBorder="0"/>
             <div className="map-hover">
-                <h5>New York</h5>
+                <h5>Москва</h5>
                 <ul>
-                    <li>Weekdays: 10.00 - 23.00</li>
-                    <li>Saturday: 10.00 - 23.00</li>
-                    <li>Sunday: Close</li>
+                    <li>Будни: 09:30 - 20:00</li>
+                    <li>Выходные: 11:00 - 17:00</li>
+                    <li>Праздничные дни: не работаю;)</li>
                 </ul>
                 <i className="icon_pin"></i>
             </div>

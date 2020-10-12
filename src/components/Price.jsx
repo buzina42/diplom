@@ -11,7 +11,7 @@ const PriceItem = (props)=>{
                 <p>Что входит:</p>
             </div>
             <p>{props.description}</p>
-            <NavLink to="#" className="primary-btn price-btn">Get Started</NavLink>
+            <NavLink to={props.title.replaceAll(" ","_")}  className="primary-btn price-btn">Хочу!</NavLink>
         </div>
     </div>
 }
@@ -25,7 +25,6 @@ class Price extends React.Component {
     componentDidMount() {
         this.props.getArticles().then(
             articles => {
-                console.log(articles);
                 let articlesCount = articles.length;
                 let priceItems = [];
                 for (let i = 0; i < articlesCount; i++) {
@@ -50,16 +49,16 @@ class Price extends React.Component {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="section-title">
-                                <h2>CHOOSE YOUR PRICING PLAN</h2>
-                                <p>These reports started to surface when Congress was having hearings about the<br/>
-                                    painkiller, Vioxx. A Food and Drug Administration staff member.</p>
+                                <h2>Выберите подходящий тариф</h2>
+                                <p>Бла-бла-бла<br/>
+                                    Бла-бла-бла-бла.</p>
                             </div>
                         </div>
                     </div>
                     {/* блок с ценником*/}
                     <Route exact path="" render={()=>{
                         return <div className="container">
-                            <div className="row mb-5">
+                            <div className="row">
                                 {this.state.priceItems}
                             </div>
                         </div>

@@ -33,7 +33,7 @@ function App(props) {
         <BrowserRouter>
           <Preloder/>
           <Menu/>
-          <Route exact path="" render={()=> {
+          <Route exact path="/" render={()=> {
             return <div>
               <HomeAbout/>
               <Classes/>
@@ -46,7 +46,7 @@ function App(props) {
               <Map/>
             </div>
           }}/>
-          <Route exact path="/schedule" render={()=>{
+          <Route path="/schedule" render={()=>{
             return <div>
               <Title h2={"Расписание"}/>
               <Classtime/>
@@ -56,21 +56,21 @@ function App(props) {
               <GetStarted/>
             </div>
           }}/>
-          <Route exact path="/blog" render={()=>{
+          <Route path="/blog" render={()=>{
             return <div>
               <Title h2={"Блог"}/>
               <Blog/>
               <GetStarted/>
             </div>
           }}/>
-          <Route exact path="/gallery" render={()=>{
+          <Route path="/gallery" render={()=>{
             return <div>
               <Title h2={"Галерея"}/>
               <Gallery/>
               <GetStarted/>
             </div>
           }}/>
-          <Route exact path="/about_me" render={()=>{
+          <Route path="/about_me" render={()=>{
             return <div>
               <Title h2={"Обо мне"}/>
               <AboutMe/>
@@ -78,7 +78,7 @@ function App(props) {
               <GetStarted/>
             </div>
           }}/>
-          <Route exact path="/contact" render={()=>{
+          <Route path="/contact" render={()=>{
             return <div>
                 <Title h2={"Контакты"}/>
                 <RoadMap/>
@@ -86,7 +86,7 @@ function App(props) {
                 <GetStarted/>
             </div>
           }}/>
-          <Route exact path="/blog_more" render={()=>{
+          <Route path="/blog_more" render={()=>{
             return <div>
               <Title h2={"Блог подробнее"}/>
               <BlogMore/>
