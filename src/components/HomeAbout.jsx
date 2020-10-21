@@ -1,5 +1,5 @@
 import React from "react";
-import {NavLink} from "react-bootstrap";
+import {NavLink} from "react-router-dom";
 
 const HomeAbout = ()=>{
     return <div>
@@ -11,7 +11,7 @@ const HomeAbout = ()=>{
                             <h2>БЕГИ СО МНОЙ</h2>
                             <p className="short-details">Бег - это естественное физиологическое движение, которое приносит пользу с давних времен.</p>
                             <p className="long-details">Бег, с начала времен, стоит на страже вашего здоровья от чужих насильственных действий, ведь как известно, умеющий бегать ничего не боится.</p>
-                            <NavLink to="#" className="primary-btn about-btn">Подробнее</NavLink>
+                            <NavLink to="/about_me" className="primary-btn about-btn">Подробнее</NavLink>
                         </div>
                     </div>
                     <div className="col-lg-6">

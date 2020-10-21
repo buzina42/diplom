@@ -1,5 +1,5 @@
 import React from "react";
-import {NavLink} from "react-bootstrap";
+import {NavLink} from "react-router-dom";
 
 const ClassesItem = ()=>{
     return <div className="container-fluid">

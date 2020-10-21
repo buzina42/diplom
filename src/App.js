@@ -29,7 +29,7 @@ import BlogMore from "./components/BlogMore";
 
 function App(props) {
   return (
-      <div>
+      <div className="site-wrap">
         <BrowserRouter>
           <Preloder/>
           <Menu/>

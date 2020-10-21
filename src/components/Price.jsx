@@ -1,6 +1,6 @@
 import React from "react";
 import {Route} from "react-router-dom";
-import {NavLink} from "react-bootstrap";
+import {NavLink} from "react-router-dom";
 {/* 1 элемент с ценником в него передается инфа из БД с сервера*/}
 const PriceItem = (props)=>{
     return <div className="col-lg-3">
